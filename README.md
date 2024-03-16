@@ -24,7 +24,7 @@ system, designed to manage basic business operation efficiently. the system will
 
 
 
-in DASHBOARD i add some cords and graph which show our produc Customer etc details 
+in DASHBOARD i add some cords and graph which show our product, Customer etc details 
 with graph which represent and compare our sales
 
 i use react-graph + react-icons 
@@ -32,21 +32,21 @@ i use react-graph + react-icons
 ////////////////////////////
 
 
-in PRODUCT have shipping card where we can add and delete items on cart 
-in addition i add property where we can see total of the prodats price
+in PRODUCT: have shopping card where we can add and delete items on cart 
+in addition i add property where we can see total of the produ:ts price
 
 datajson .......
 hooks: useState 
 
 //////////////////////////////
 
-in Order have a board where user can add their item what they want as well delete and manage also
+in ORDER: have a board where user can add their item what they want as well delete and manage also
 
 react-icons 
 hooks: useState, useEffect, useRef
 
 
-in CALENDER have calender ehich show current date time (Indian Standard Time )
+in CALENDER: have calender which show current date time (Indian Standard Time )
 
 react-calender 
 
@@ -54,7 +54,7 @@ react-calender
 
 
 i deploy on netlify, for better experience use desktop site 
-coz of less responsive 
+coz, of less responsive 
 
 
 
