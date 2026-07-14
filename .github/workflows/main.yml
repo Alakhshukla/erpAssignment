@@ -11,11 +11,16 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Print Task
-        run: echo "Hello World"
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-      - name: check date
-        run: date
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Project
+        run: npm run build
         
 
       
