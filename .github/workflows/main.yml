@@ -27,6 +27,25 @@ jobs:
         with:
           name: react-build
           path: dist/
+
+  info:             #added info job
+    needs: build                    # execute after build job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: curr_dir
+        run: pwd
+
+      - name: check_date
+        run: date
+
+      - name: check_node_version
+        run: node -v
+
+
         
 
       
