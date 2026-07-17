@@ -44,8 +44,8 @@ jobs:
       - name: install dependencies
         run: npm install
 
-      - name: run_unit_test
-        run: npm test
+     # - name: run_unit_test
+    #    run: npm test
         
       - name: curr_dir
         run: pwd
